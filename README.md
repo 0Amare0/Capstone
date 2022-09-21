@@ -1,2 +1,2 @@
-# step13Amare
+# Capstone
 OT Senior Capstone Site
