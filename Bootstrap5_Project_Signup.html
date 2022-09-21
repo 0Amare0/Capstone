@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+  <body>
+
+  <!-- COPY AND PASTE YOUR NAVBAR FROM THE OTHER PAGE HERE AS WELL! -->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#" style="color ">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="Bootstrap5_Project_Main.html">Home</a>
+          <a class="nav-link text-white" href="Bootstrap5_Project_Signup.html">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 
+    CREATE A SIGNUP FORM HERE INSIDE OF A CONTAINER. INCLUDE:
+    * TEXT INPUT
+    * TEXTAREA INPUT
+    * EMAIL
+    * DROPDOWN
+  -->
+<div class="containter">
+  <form method="get">
+    Please put your information in the form below:
+    <div class="bg-secondary text-white mt-3 p-3">
+    <label for="name">What's your name?</label>
+    <input type="text" id="name">
+    
+    <div class="py-3">
+    <label for="other">Other:</label>
+    <textarea cols="60"placeholder="Please put any other information here"></textarea>
+    </div>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+
+    <label for="like">Do you like pugs?</label>
+    <select name="youlike?" id="like">
+      <option value="Y">Yes</option>
+      <option value="N">No</option>
+      <option value="M">Maybe</option>
+      <option value="I">Indifferent</option>
+  </select>
+  <input type="submit" name="" value="Submit">
+</div>
+  </form>
+</div>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
